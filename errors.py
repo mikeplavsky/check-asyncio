@@ -30,9 +30,14 @@ async def error():
 async def check():
     await error()
 
-def main():
+def run_check():
 
     loop = asyncio.new_event_loop()
     loop.run_until_complete(check())
 
     loop.close()
+
+def main():
+
+    sum(2,5) # exception is caught
+    run_check() # exception is not caught
