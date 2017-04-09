@@ -1,7 +1,0 @@
-version: "2.0"
-
-services:
-    check-asyncio:
-        image: python:3.5
-        volumes:
-            - .:/check-asyncio
