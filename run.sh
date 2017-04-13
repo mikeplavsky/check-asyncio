@@ -1,4 +1,3 @@
-docker build -t test .
 docker rm -f test
 
 docker run --name=test \
