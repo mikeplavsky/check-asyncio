@@ -39,5 +39,5 @@ def run_check():
 
 def main():
 
-    sum(2,5) # exception is caught
-    run_check() # exception is not caught
+    sum(2,5)
+    run_check()
